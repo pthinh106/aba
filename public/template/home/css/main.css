@@ -1,0 +1,183 @@
+body{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#banner-news{
+    padding: 20px;
+}
+#category-index{
+    padding: 20px;
+}
+#category-question-answer{
+    padding: 20px;
+}#category-prevails{
+    padding: 20px;
+}
+#category-benefit{
+    padding: 20px;
+}
+#category-video{
+    padding: 20px;
+}
+#category-slide{
+    padding: 20px;
+}
+#category-reason{
+    padding: 20px;
+}
+#brand-describe{
+    padding: 20px;
+}
+#section-categories{
+    padding: 20px;
+}
+#brand-review{
+    padding: 20px;
+}
+#brand-benefit{
+    padding: 20px;
+}
+#brand-information{
+    padding: 20px;
+}
+#brand-risk{
+    padding: 20px;
+}
+#brand-condition{
+    padding: 20px;
+}
+#brand-procedure{
+    padding: 20px;
+}
+#brand-question{
+    padding: 20px;
+}
+#brand-form-information{
+    padding: 20px;
+}
+.category-option, .category-benefit{
+    padding: 5px;
+}
+.contactForm .form-control {
+    border: none; !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); !important;
+    padding: 0; !important;
+}
+input.form-control {
+    border: none;
+    border-bottom: 1px solid rgb(0 0 0.1);
+    padding: 0;
+}
+.form-group label, .form-group input{
+    margin-bottom: 12px;
+}
+.form-group input{
+    height: 40px;
+}
+.information-customer{
+    background: #438BA3;
+    padding: 20px;
+    border: 2px solid #438BA3;
+    border-radius: 20px;
+}
+.infor{
+    background: #fff;
+    border: 2px solid #239da3;
+    border-radius: 20px;
+}
+a.carousel-control-prev {
+    top: 50%;
+    bottom: unset;
+}
+.carousel-item iframe{
+    height: 500px;
+}
+.icon-call i.fa.fa-phone{
+    font-size: 30px;
+}
+
+.swiper {
+    width: 100%;
+    /*height: 100%;*/
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+@media (max-width: 760px) {
+    .swiper-button-next {
+        right: 20px;
+        transform: rotate(90deg);
+    }
+
+    .swiper-button-prev {
+        left: 20px;
+        transform: rotate(90deg);
+    }
+}
+
+/*logo menu*/
+a#logo {
+    display: flex;
+}
+p.name-logo-home {
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1200px) {
+    .fb-block{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .fb-block{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .fb-block{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .fb-block{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .fb-block{
+        width: 390px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .fb-block{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .carousel-item iframe{
+        height: 230px;
+    }
+}
+
+
